@@ -151,13 +151,6 @@ This pipeline transformed a huge, unstructured dataset into a clean, query-optim
 - [ ] Advanced statistical metrics
 - [ ] Player comparison tools
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👨‍💻 Author
 
