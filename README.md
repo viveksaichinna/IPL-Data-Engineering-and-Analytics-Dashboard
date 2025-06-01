@@ -34,6 +34,49 @@ This dashboard presents a comprehensive analysis of IPL data through two main an
 - Contextual statistics for selected teams/players/venues
 - Comparative analysis across different parameters
 
+## 🛠️ Data Engineering Story
+
+### **From Raw Data to Insights: My Data Pipeline**
+
+When I started this project, I faced the challenge of working with a massive, messy IPL dataset spanning all seasons and multiple sources. Here’s how I engineered a scalable, cloud-based pipeline to power the dashboard:
+
+#### **1. Data Collection & Storage**
+- Gathered raw IPL match and player data from various sources in different formats (CSV, JSON).
+- Stored all raw files securely on **Amazon S3**, making them easy to manage and scale.
+
+#### **2. Data Cleaning with PySpark**
+- Used **PySpark** to clean and preprocess the data:
+  - Standardized team and player names.
+  - Filled missing values and removed duplicates.
+  - Created new columns (e.g., match type, decade) for richer analysis.
+
+#### **3. Data Transformation with AWS Glue**
+- Automated the ETL (Extract, Transform, Load) process using **AWS Glue**.
+- Partitioned data by season and venue for faster queries.
+- Normalized and structured the data for analytics.
+
+#### **4. Data Quality Assurance**
+- Implemented checks for missing values, schema consistency, and outlier detection.
+- Ensured the data was always up-to-date and accurate.
+
+#### **5. Dashboard Connection**
+- Connected **Tableau** directly to the processed data in S3 using **Amazon Athena**.
+- Enabled real-time, interactive analytics with minimal operational overhead.
+
+**Result:**  
+This pipeline transformed a huge, unstructured dataset into a clean, query-optimized analytics layer. It not only powers deep insights in the dashboard but also demonstrates my hands-on skills in cloud data engineering and big data processing.
+
+---
+
+## 💡 Why This Pipeline? (Athena/Glue vs. Redshift)
+
+- **Athena + Glue** is ideal for flexible, serverless, and cost-effective analytics on S3 data. It requires no infrastructure management and is perfect for dashboards and ad-hoc queries.
+- **Redshift** is better for ultra-fast, complex analytics on massive, structured datasets and for production-grade BI at scale. It requires more setup and is best for consistent, high-volume workloads.
+
+**For this project, Athena + Glue offers the perfect balance of scalability, flexibility, and cost-efficiency.** If the data or user base grows significantly, or if advanced analytics are needed, migrating to Redshift or EMR is a future option.
+
+---
+
 ## 🖼️ Dashboard Screenshots
 
 ### Team Analytics (Story 1)
