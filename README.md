@@ -80,21 +80,21 @@ This pipeline transformed a huge, unstructured dataset into a clean, query-optim
 ## 🖼️ Dashboard Screenshots
 
 ### Team Analytics (Story 1)
-![Team Overview](screenshots/story1/overview.png)
+![Team Overview](screenshots/story_1/overview.png)
 
 **Venue Distribution**
-![Venue Map](screenshots/story1/venue_map.png)
+![Venue Map](screenshots/story_1/venue_map.png)
 
 **Performance Metrics**
-![Home Runs Analysis](screenshots/story1/home_runs_chart.png)
-![Toss Decisions](screenshots/story1/toss_decisions.png)
+![Home Runs Analysis](screenshots/story_1/Home_runs_chart.png)
+![Toss Decisions](screenshots/story_1/Teams_&_Toss_decisions.png)
 
 ### Player Analytics (Story 2)
-![Player Overview](screenshots/story2/player_overview.png)
+![Player Overview](screenshots/story_2/Players_statistics_overview.png)
 
 **Performance Trends**
-![Seasonal Performance](screenshots/story2/seasonal_performance.png)
-![Boundaries Analysis](screenshots/story2/boundaries_chart.png)
+![Seasonal Performance](screenshots/interactions/player_filter_demo_1.png)
+![Boundaries Analysis](screenshots/story_2/boundaries_chart.png)
 
 ## 🎯 Use Cases
 
