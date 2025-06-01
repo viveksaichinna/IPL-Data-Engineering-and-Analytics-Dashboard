@@ -1,6 +1,6 @@
 # IPL-Data-Engineering-and-Analytics-Dashboard 📊🏏
 
-An interactive Tableau dashboard analyzing Indian Premier League (IPL) team and player statistics across all seasons, providing comprehensive insights for cricket analytics.
+An interactive Tableau dashboard offering in-depth analysis of Indian Premier League (IPL) team and player statistics across all seasons, powered by a full-stack data engineering pipeline built on AWS.
 
 ## 🔗 Live Dashboard
 [View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/vivek.sai.chinna.burada/viz/indivivdual/Story1?publish=yes)
