@@ -156,11 +156,7 @@ This pipeline transformed a huge, unstructured dataset into a clean, query-optim
 
 **Vivek Sai Chinna Burada**
 - Tableau Public: [Profile Link](https://public.tableau.com/app/profile/vivek.sai.chinna.burada)
-- GitHub: [Your GitHub Profile]
-
-## 🏷️ Tags
-
-`tableau` `ipl` `cricket-analytics` `data-visualization` `sports-analytics` `dashboard` `business-intelligence`
+- GitHub: [[Your GitHub Profile](https://github.com/viveksaichinna)]
 
 ---
 ⭐ Star this repository if you found it helpful!
